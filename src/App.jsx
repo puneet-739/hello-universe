@@ -1,6 +1,4 @@
 import './index.css';
-import { RouterProvider } from 'react-router/dom';
-import router from './routes/routes';
 import SpaceBG from './components/SpaceBG';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
@@ -28,13 +26,5 @@ const App = () => {
     </div>
   );
 };
-
-// function App() {
-//   return (
-//     <>
-//       <RouterProvider router={router} />
-//     </>
-//   );
-// }
 
 export default App

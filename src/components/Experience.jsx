@@ -13,7 +13,7 @@ const Experience = () => {
             className="relative pl-12 group"
           >
             {/* Timeline Dot */}
-            <div className="absolute left-0 top-2 w-4 h-4 bg-indigo-400 rounded-full border-4 border-white/20 shadow-md group-hover:scale-110 transition-transform"></div>
+            <div className="absolute left-2 top-2 w-4 h-4 bg-indigo-400 rounded-full border-4 border-white/20 shadow-md group-hover:scale-110 transition-transform"></div>
 
             {/* Card */}
             <div className="bg-white/5 border border-white/10 backdrop-blur-sm p-6 rounded-lg hover:scale-[1.02] transition-transform">

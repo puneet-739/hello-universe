@@ -1,4 +1,5 @@
 import data from "../data/portfolioData.json"
+import SocialLinks from "./SocialLinks"
 
 const Hero = () => {
   return (
@@ -7,9 +8,10 @@ const Hero = () => {
       <p className="text-xl md:text-2xl max-w-xl mb-6">
         {data.designation}
       </p>
-      <a href="#projects" className="px-6 py-3 bg-indigo-500 hover:bg-indigo-600 rounded-full text-white transition">
+      {/* <a href="#projects" className="px-6 py-3 bg-indigo-500 hover:bg-indigo-600 rounded-full text-white transition">
         See My Work
-      </a>
+      </a> */}
+      <SocialLinks />
     </section>
   );
 };

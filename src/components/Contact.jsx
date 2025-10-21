@@ -1,4 +1,5 @@
 import data from "../data/portfolioData.json"
+import SocialLinks from "./SocialLinks";
 
 const Contact = () => {
   return (
@@ -7,6 +8,7 @@ const Contact = () => {
       <p className="mb-8">
         I'm open to freelance opportunities, collaborations, or just a chat. Let's build something cool!
       </p>
+      <SocialLinks />
       <a href={`mailto:${data.email}`} className="px-6 py-3 bg-indigo-500 hover:bg-indigo-600 rounded-full text-white">
         Say Hello
       </a>

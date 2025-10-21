@@ -6,13 +6,18 @@
     "social": [
         {
             "id": 1,
-            "name": "Github",
+            "name": "GitHub",
             "link": "https://github.com/puneet-739"
         },
         {
             "id": 2,
             "name": "LinkedIn",
             "link": "https://www.linkedin.com/in/pushpender-singh-kumar-0377b01b1"
+        },
+        {
+            "id": 3,
+            "name": "Email",
+            "link": "mailto:pushpender.singh.kumar@gmail.com"
         }
     ],
     "experience": [
