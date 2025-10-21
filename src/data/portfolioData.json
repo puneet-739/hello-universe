@@ -1,0 +1,211 @@
+{
+    "name": "Pushpender Singh Kumar",
+    "designation": "Software Developer",
+    "email": "pushpender.singh.kumar@gmail.com",
+    "about": "Flutter Developer with 2.5+ years of experience building cross-platform applications for mobile, web, and desktop. Proficient in state management (BLoC, Riverpod, GetX), Firebase services, and game development with the Flame game engine. Adept at API integration, real-time data handling, and crafting responsive, scalable UIs. Contributor to open-source projects with a passion for clean, maintainable code. ",
+    "social": [
+        {
+            "id": 1,
+            "name": "Github",
+            "link": "https://github.com/puneet-739"
+        },
+        {
+            "id": 2,
+            "name": "LinkedIn",
+            "link": "https://www.linkedin.com/in/pushpender-singh-kumar-0377b01b1"
+        }
+    ],
+    "experience": [
+        {
+            "title": "Senior Frontend Engineer",
+            "company": "Skyraksys Technologies",
+            "startDate": "Feb 2025",
+            "endDate": "July 2025",
+            "location": "Remote",
+            "type": "Full-Time",
+            "responsibilities": [
+                "Led the frontend development using Flutter and Angular.",
+                "Reviewed and merged pull requests, ensuring code quality and consistency."
+            ]
+        },
+        {
+            "title": "Flutter Developer (Freelance)",
+            "company": "Gamazing Studios",
+            "startDate": "Nov 2024",
+            "endDate": "Jan 2025",
+            "location": "Remote",
+            "type": "Freelance",
+            "responsibilities": [
+                "Rebuilt an existing Android app using Flutter.",
+                "Delivered multiple versions of the app with different UI layouts and features.",
+                "Integrated UPI payment gateway using intent-based flow."
+            ]
+        },
+        {
+            "title": "Junior Flutter Developer",
+            "company": "LBM Solutions",
+            "startDate": "June 2024",
+            "endDate": "Sept 2024",
+            "location": "Onsite",
+            "type": "Full-Time",
+            "responsibilities": [
+                "Developed and maintained mobile applications using Flutter.",
+                "Collaborated with team members to generate new application ideas.",
+                "Worked on game development with the Flame game engine."
+            ]
+        },
+        {
+            "title": "Junior Software Engineer",
+            "company": "Key Software Services Private Limited",
+            "startDate": "Aug 2022",
+            "endDate": "Apr 2024",
+            "location": "Onsite",
+            "type": "Full-Time",
+            "responsibilities": [
+                "Built Flutter-based applications for Android, iOS, web, macOS, and Windows.",
+                "Enhanced web apps using HTML, CSS, JavaScript, and Node.js.",
+                "Worked on BLE-based IoT integration and real-time monitoring features."
+            ]
+        }
+    ],
+    "skills": [
+        {
+            "id": 1,
+            "name": "Dart"
+        },
+        {
+            "id": 2,
+            "name": "Flutter"
+        },
+        {
+            "id": 3,
+            "name": "C"
+        },
+        {
+            "id": 4,
+            "name": "C++"
+        },
+        {
+            "id": 5,
+            "name": "HTML"
+        },
+        {
+            "id": 6,
+            "name": "CSS"
+        },
+        {
+            "id": 7,
+            "name": "Java"
+        },
+        {
+            "id": 8,
+            "name": "Python"
+        },
+        {
+            "id": 9,
+            "name": "Javascript"
+        },
+        {
+            "id": 10,
+            "name": "React"
+        },
+        {
+            "id": 11,
+            "name": "Angular"
+        },
+        {
+            "id": 12,
+            "name": "Git"
+        },
+        {
+            "id": 13,
+            "name": "Github"
+        },
+        {
+            "id": 14,
+            "name": "Bitbucket"
+        },
+        {
+            "id": 15,
+            "name": "VS Code"
+        },
+        {
+            "id": 16,
+            "name": "Android Studio"
+        },
+        {
+            "id": 17,
+            "name": "Node.js"
+        },
+        {
+            "id": 18,
+            "name": "Linux"
+        },
+        {
+            "id": 19,
+            "name": "MongoDB"
+        },
+        {
+            "id": 20,
+            "name": "Firebase"
+        },
+        {
+            "id": 21,
+            "name": "Tailwind CSS"
+        }
+    ],
+    "projects": [
+        {
+            "id": 1,
+            "title": "Movie and Event Booking App",
+            "description": "Worked on a cross-platform mobile application that allows users to browse, book, and pay for movies and events. Integrated real-time data updates and secure payment processing using mollie payment gateway. The admin dashboard (built with Angular) enables event management, booking analytics, and user administration.",
+            "skills": [
+                "Dart",
+                "Flutter",
+                "Firebase",
+                "Angular"
+            ]
+        },
+        {
+            "id": 2,
+            "title": "Crypto Exchange App",
+            "description": "Worked on a cryptocurrency trading app with real-time market data and user portfolio tracking. Integrated Binance APIs to fetch live crypto prices and execute trades. Designed a responsive and intuitive UI using Flutter, ensuring secure authentication and smooth user experience.",
+            "skills": [
+                "Dart",
+                "Flutter",
+                "Binance APIs"
+            ]
+        },
+        {
+            "id": 3,
+            "title": "IoT based Battery Monitoring and Management Application",
+            "description": "Worked on a cross-platform application to monitor, log, and analyze battery health and performance metrics on using microcontroller devices to fetch battery data. Focused on real-time data visualization and system optimization alerts.",
+            "skills": [
+                "Dart",
+                "Flutter",
+                "Cross-Platform"
+            ]
+        },
+        {
+            "id": 4,
+            "title": "Employee Management App",
+            "description": "Worked on a mobile and web application to manage employee records, attendance, and departmental tasks. Developed using Flutter for the frontend and Node.js for the backend API. the backend includes role-based access control and real-time notifications for HR and management teams.",
+            "skills": [
+                "Dart",
+                "Flutter",
+                "Node.js",
+                "Firebase"
+            ]
+        },
+        {
+            "id": 5,
+            "title": "Portfolio",
+            "description": "Designed and developed a personal portfolio website using React and Tailwind CSS to showcase projects, skills, and experience. Implemented responsive design, interactive UI components, and clean code structure for maintainability and scalability.",
+            "skills": [
+                "React",
+                "Tailwind CSS",
+                "JavaScript"
+            ]
+        }
+    ]
+}
