@@ -1,8 +1,8 @@
 const Navbar = () => {
-  const items = ['Home', 'Experience','About', 'Projects', 'Skills', 'Contact'];
+  const items = ['Home', 'Experience', 'About', 'Projects', 'Skills', 'Contact'];
 
   return (
-    <nav className="fixed top-6 left-1/2 transform -translate-x-1/2 z-50 backdrop-blur-md bg-white/10 border border-white/20 shadow-lg rounded-full px-8 py-3">
+    <nav className="hidden sm:flex fixed top-6 left-1/2 transform -translate-x-1/2 z-50 backdrop-blur-md bg-white/10 border border-white/20 shadow-lg rounded-full px-8 py-3">
       <ul className="flex gap-8 text-white text-sm md:text-base">
         {items.map((item) => (
           <li key={item}>
