@@ -19,6 +19,9 @@ const SpaceBG = () => {
       canvas.style.width = `${window.innerWidth}px`;
       canvas.style.height = `${window.innerHeight}px`;
       ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+
+      // Redraw stars on resize
+      createStars()
     };
 
     resizeCanvas();
