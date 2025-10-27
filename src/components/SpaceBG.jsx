@@ -16,7 +16,6 @@ const SpaceBG = () => {
     const STAR_COUNT = 200;
     const starColors = ['#ffffff', '#ffe9c4', '#d4fbff', '#ffd1dc', '#c2e9fb'];
 
-
     const getRandomColor = () => {
       return starColors[Math.floor(Math.random() * starColors.length)];
     };
@@ -39,7 +38,9 @@ const SpaceBG = () => {
     };
 
     const resizeCanvas = () => {
-      const dpr = window.devicePixelRatio || 1;
+      // const dpr = window.devicePixelRatio || 1;
+      const dpr = 1;
+
       canvas.width = window.innerWidth * dpr;
       canvas.height = window.innerHeight * dpr;
       canvas.style.width = `${window.innerWidth}px`;
