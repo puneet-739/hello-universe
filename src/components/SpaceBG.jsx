@@ -12,26 +12,10 @@ const SpaceBG = () => {
     let mouseX = 0;
     let mouseY = 0;
 
-    const resizeCanvas = () => {
-      const dpr = window.devicePixelRatio || 1;
-      canvas.width = window.innerWidth * dpr;
-      canvas.height = window.innerHeight * dpr;
-      canvas.style.width = `${window.innerWidth}px`;
-      canvas.style.height = `${window.innerHeight}px`;
-      ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
-
-      // Redraw stars on resize
-      createStars()
-    };
-
-    resizeCanvas();
-    window.addEventListener('resize', resizeCanvas);
-
-    const STAR_COUNT = 200;
     let stars = [];
-    let shootingStars = [];
-
+    const STAR_COUNT = 200;
     const starColors = ['#ffffff', '#ffe9c4', '#d4fbff', '#ffd1dc', '#c2e9fb'];
+
 
     const getRandomColor = () => {
       return starColors[Math.floor(Math.random() * starColors.length)];
@@ -53,6 +37,23 @@ const SpaceBG = () => {
         });
       }
     };
+
+    const resizeCanvas = () => {
+      const dpr = window.devicePixelRatio || 1;
+      canvas.width = window.innerWidth * dpr;
+      canvas.height = window.innerHeight * dpr;
+      canvas.style.width = `${window.innerWidth}px`;
+      canvas.style.height = `${window.innerHeight}px`;
+      ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+
+      // Redraw stars on resize
+      createStars()
+    };
+
+    resizeCanvas();
+    window.addEventListener('resize', resizeCanvas);
+
+    let shootingStars = [];
 
     const createShootingStar = () => {
       const angle = Math.random() * Math.PI / 3 - Math.PI / 6; // between -30 and +30 degrees
